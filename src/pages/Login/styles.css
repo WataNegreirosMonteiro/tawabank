@@ -1,0 +1,72 @@
+.checkbox-forget_password{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn{
+  width: 46%;
+}
+
+.login-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-primary{
+  background: linear-gradient(270deg, #3abef7 0%, #0d6efd 100%);
+  border: none;
+}
+
+.form-control{
+  height: 45px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#InputPassword{
+ width: 100%;
+
+ outline-style: none;
+ border: none;
+}
+
+#eye_button{
+  border: none;
+  background: transparent;
+}
+
+.sep {
+  border: 1px solid #ced4da;
+  position: relative;
+  margin: 35px 20px;
+}
+
+.or {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  background: white;
+  text-align: center;
+  margin: -10px 0 0 -25px;
+  line-height: 20px;
+  color: #ced4da;
+}
+
+#google-button{
+  height: 43px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  border-radius: .25rem;
+  border: none;
+  color: #8e9093;
+}
+
+#google-image{
+  width: 4%;
+}
