@@ -1,6 +1,6 @@
 import './styles.css'
 
-export default function Card_layout({ Page, Content }){
+export default function CardLayout({ Page, Content }){
   return(
     <main class='card_layout'>
       <div class='card_layout-main'>
